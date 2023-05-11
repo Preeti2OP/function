@@ -1,0 +1,12 @@
+'''a=int(input("1st no="))
+b=int(input("2nd no="))
+c=int(input("3rd no="))
+def max(x,y,z):
+    if x>y and  x>z:
+        print(x,": is greatest among three")
+    elif y>x and y>z:
+        print(y,": is greatest among three")
+    else:
+        print(z,": is greatest among three")
+max(a,b,c)
+
